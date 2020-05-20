@@ -33,5 +33,15 @@ alert("不说话代表我素质高呢~");
     
 window.location.href="https://xiaozhu2021.github.io/cloud/";
 </script>
+    
+<input type="button" value="按钮" onclick="getVal()"><input type="text" id="num" value="0">
+<script>
+    function getVal(){
+    var val = document.getElementById('num').value; // 获取输入框中的值
+    val++;
+    document.getElementById('num').value = val;
+    setTimeout(getVal,1000)  // 一秒后调用getVal方法
+    }
+</script>
     </body>
 </html>
