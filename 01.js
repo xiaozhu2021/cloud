@@ -1,4 +1,4 @@
-document.title = '大人，时代变了！'
+document.title = '你中招了！'
 alert("你照张自拍就是全家福？");
 alert("每次看到路边的垃圾，我就会想起你来");
 alert("你斗地主了3456没有7");
